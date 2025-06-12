@@ -29,3 +29,29 @@ header img{
   	height: 350px;
 	background: brown;
 }
+section#noticias ul li{
+     width:1 100;
+     height: auto; 
+     margin 0 auto;
+    border 1px solid black;
+}
+section#noticias ul li{
+      list-style:none;
+      width350px;
+      height:350px;
+      background:gray;
+}
+section#noticias img{
+      text-align:center;
+      height:100%;
+      width:100%;
+     box-shadow: 5px 0px 0px 0px#00000030;
+}
+section#noticias.categoria{
+     text-aling: center;
+}
+section#noticias h2{
+     font-size:35px;
+     color:#333333;
+     text-align:center;
+}
