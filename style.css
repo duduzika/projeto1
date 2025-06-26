@@ -18,7 +18,7 @@ header nav ul li{
 }
 header nav ul li a{
     text-decoration: none;
-    color: brown;
+    color:#333;
 }
 header nav ul li a: hover{
     color: yellow;
@@ -28,30 +28,31 @@ header img{
 }
 #banner{
   	height: 350px;
-	background: brown;
+	background: blue;
 }
 section#noticias ul{
      width: 1100px;
      height: auto; 
      margin: 0 auto;
+    flex-wrap:wrap;
    
 }
 section#noticias ul li{
       list-style:none;
       width: 350px;
-      height:350px;
+      height:450px;
      
 }
 section#noticias img{
       text-align:center;
-      height:150%;
+      height:150px ;
       width:100%;
      
 }
 section#noticias.categoria{
-     text-aling: center;
+     text-align: center;
      background: #900;
-     color: #fff;
+     
      display: block;
      padding: 5px 0;
 }
